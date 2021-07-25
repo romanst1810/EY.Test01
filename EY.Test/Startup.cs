@@ -28,9 +28,7 @@ namespace EY.Test
         {
             services.AddControllersWithViews();
             services.AddTransient<IDepartmentService, DepartmentService>();
-            services.AddTransient<IEmployeeService, EmployeeService>();
             services.AddSingleton<IDepartmentRepository, DepartmentRepository>();
-            services.AddSingleton<IEmployeeRepository, EmployeeRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

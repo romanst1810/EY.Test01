@@ -27,18 +27,22 @@ namespace EY.BL.Services
 
         public async Task<IReadOnlyCollection<Department>> FetchAsync()
         {
-            var result = await _depRepository.FetchAsync();
-            return result;
+            return await _depRepository.FetchAsync();
         }
-
-        public async Task AddEmployeeAsync(int departmentId, int employeeId)
-        {
-            await _depRepository.AddEmployeeAsync(departmentId, employeeId);
-        }
-
+        
         public async Task RemoveEmployeeAsync(int departmentId, int employeeId)
         {
             await _depRepository.RemoveEmployeeAsync(departmentId, employeeId);
+        }
+
+        public async Task<Department> GetDepartmentByIdAsync(int? id)
+        {
+            return await _depRepository.GetDepartmentByIdAsync(id);
+        }
+
+        public async Task AddOrUpdateEmployeeAsync(int departmentId, Employee emp)
+        {
+            await _depRepository.AddOrUpdateEmployeeAsync(departmentId, emp);
         }
     }
 }

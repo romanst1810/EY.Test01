@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj",
+      "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj",
       "projectName": "EY.Core",
-      "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj",
+      "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj",
       "packagesPath": "C:\\Users\\ronan\\.nuget\\packages\\",
-      "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\obj\\",
+      "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

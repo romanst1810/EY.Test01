@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Test\\EY.Test.csproj": {}
+    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Test\\EY.Test.csproj": {}
   },
   "projects": {
-    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.BL\\EY.BL.csproj": {
+    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.BL\\EY.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.BL\\EY.BL.csproj",
+        "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.BL\\EY.BL.csproj",
         "projectName": "EY.BL",
-        "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.BL\\EY.BL.csproj",
+        "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.BL\\EY.BL.csproj",
         "packagesPath": "C:\\Users\\ronan\\.nuget\\packages\\",
-        "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.BL\\obj\\",
+        "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,8 +33,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj": {
-                "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj"
+              "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj": {
+                "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj": {
+    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj",
+        "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj",
         "projectName": "EY.Core",
-        "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj",
+        "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj",
         "packagesPath": "C:\\Users\\ronan\\.nuget\\packages\\",
-        "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\obj\\",
+        "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Data\\EY.Data.csproj": {
+    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Data\\EY.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Data\\EY.Data.csproj",
+        "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Data\\EY.Data.csproj",
         "projectName": "EY.Data",
-        "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Data\\EY.Data.csproj",
+        "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Data\\EY.Data.csproj",
         "packagesPath": "C:\\Users\\ronan\\.nuget\\packages\\",
-        "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Data\\obj\\",
+        "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -155,8 +155,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj": {
-                "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Core\\EY.Core.csproj"
+              "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj": {
+                "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Core\\EY.Core.csproj"
               }
             }
           }
@@ -175,17 +175,17 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.16, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.16, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.16, )"
+              "version": "[5.0.5, )"
             }
           },
           "imports": [
@@ -207,14 +207,14 @@
         }
       }
     },
-    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Test\\EY.Test.csproj": {
+    "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Test\\EY.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Test\\EY.Test.csproj",
+        "projectUniqueName": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Test\\EY.Test.csproj",
         "projectName": "EY.Test",
-        "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Test\\EY.Test.csproj",
+        "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Test\\EY.Test.csproj",
         "packagesPath": "C:\\Users\\ronan\\.nuget\\packages\\",
-        "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Test\\obj\\",
+        "outputPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -236,11 +236,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.BL\\EY.BL.csproj": {
-                "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.BL\\EY.BL.csproj"
+              "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.BL\\EY.BL.csproj": {
+                "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.BL\\EY.BL.csproj"
               },
-              "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Data\\EY.Data.csproj": {
-                "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test\\EY.Data\\EY.Data.csproj"
+              "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Data\\EY.Data.csproj": {
+                "projectPath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\EY.Test01\\EY.Data\\EY.Data.csproj"
               }
             }
           }
@@ -263,17 +263,13 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.16, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.16, )"
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.16, )"
+              "version": "[5.0.5, )"
             }
           },
           "imports": [

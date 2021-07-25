@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -41,7 +42,7 @@ namespace EY.Data
 
             using (var context = CreateContext())
             {
-                Department d = await context.Departments.FirstOrDefaultAsync(x=>x.Id == item.Id);
+                Department d = await context.Departments.FirstOrDefaultAsync(x => x.Id == item.Id);
                 d.Description = item.Description;
                 d.Name = item.Name;
                 d.WorkStatus = item.WorkStatus;
@@ -54,43 +55,70 @@ namespace EY.Data
         {
             using (var context = CreateContext())
             {
-                return await context.Departments.ToArrayAsync();
+                return await context.Departments.Include(e => e.Employees).ToArrayAsync();
             }
         }
 
-        public async Task AddEmployeeAsync(int departmentId, int employeeId)
+        public async Task<Department> GetDepartmentByIdAsync(int? id)
         {
-            if (departmentId>0 &&employeeId>0)
-                throw new ArgumentNullException(nameof(departmentId) + nameof(employeeId));
+            if (id == null)
+            {
+                return null;
+            }
             using (var context = CreateContext())
             {
-                Department dep = await context.Departments.FirstOrDefaultAsync(x=>x.Id == departmentId);
-                Employee emp = await context.Employees.FirstOrDefaultAsync(x => x.Id == employeeId);
-                if (dep != null && emp != null)
+                return await context.Departments.Include(e => e.Employees).FirstOrDefaultAsync(d => d.Id == id);
+            }
+        }
+
+        public async Task AddOrUpdateEmployeeAsync(int departmentId, Employee emp)
+        {
+            if (emp == null || departmentId <= 0)
+                throw new ArgumentNullException(nameof(emp), nameof(departmentId));
+
+            using (var context = CreateContext())
+            {
+                Department dep = await context.Departments.Include(e => e.Employees)
+                    .FirstOrDefaultAsync(x => x.Id == departmentId);
+                if (dep != null)
                 {
-                    dep.Employees.Add(emp);
-                    //emp.DepartmentId = dep.Id;
-                    emp.CurrentDepartment = dep;
+                    Employee employeeExists = dep.Employees.FirstOrDefault(e => e.Id == emp.Id);
+                    if (employeeExists != null)
+                    {
+                        employeeExists.StartDate = emp.StartDate;
+                        employeeExists.EndDate = emp.EndDate;
+                        employeeExists.FirstName = emp.FirstName;
+                        employeeExists.LastName = emp.LastName;
+                        employeeExists.SocialId = emp.SocialId;
+                        employeeExists.WorkDescription = emp.WorkDescription;
+                    }
+                    else
+                    {
+                        emp.CurrentDepartment = dep;
+                        dep.Employees.Add(emp);
+                    }
                     await context.SaveChangesAsync();
                 }
-                else throw new Exception("Department or Employee does not exists");
+                else throw new Exception("Department does not exists");
             }
         }
 
         public async Task RemoveEmployeeAsync(int departmentId, int employeeId)
         {
-            if (departmentId>0 && employeeId>0)
+            if (departmentId > 0 && employeeId > 0)
                 throw new ArgumentNullException(nameof(departmentId) + nameof(employeeId));
             using (var context = CreateContext())
             {
-                Department dep = await context.Departments.FirstOrDefaultAsync(x => x.Id == departmentId);
-                Employee emp = await context.Employees.FirstOrDefaultAsync(x => x.Id == employeeId);
-                if (dep != null && emp != null)
+                Department dep = await context.Departments.Include(e => e.Employees)
+                    .FirstOrDefaultAsync(x => x.Id == departmentId);
+                if (dep != null)
                 {
-                    dep.Employees.Remove(emp);
-                   // emp.DepartmentId = null;
-                    emp.CurrentDepartment = null;
-                    await context.SaveChangesAsync();
+                    Employee emp = dep.Employees.FirstOrDefault(x => x.Id == employeeId);
+                    if (emp != null)
+                    {
+                        dep.Employees.Remove(emp);
+                        await context.SaveChangesAsync();
+                    }
                 }
                 else throw new Exception("Department or Employee does not exists");
             }
